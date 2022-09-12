@@ -1,0 +1,34 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #76045D;
+    display: grid;
+    grid-template-areas: 
+       "header"
+        "main" 
+        "footer";
+        grid-auto-rows: 100px 1fr 100px;
+
+}
+
+head{
+    grid-area: header;
+    background-color: aqua;
+}
+
+main{
+    grid-area: main;
+    background-color: lightgreen;
+}
+
+footer{
+
+    grid-area: footer;
+    background-color: blueviolet;
+}
